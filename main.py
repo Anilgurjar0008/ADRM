@@ -165,7 +165,7 @@ async def broadcast_handler(client: Client, message: Message):
         return
     if not message.reply_to_message:
         try:
-        await message.reply_text("**Reply to any message (text, photo, video, or file)
+        await message.reply_text("**Reply to any message (text, photo, video, or file)**")
     except FloodWait as fw:
         await asyncio.sleep(fw.value)
         await message.reply_text("**Reply to any message (text, photo, video, or file) with /broadcast to send it to all users.**")
