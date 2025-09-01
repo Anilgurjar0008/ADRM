@@ -1,8 +1,28 @@
+# Telegram related
 pyrogram==2.0.106
 tgcrypto
+pyromod
+
+# HTTP & scraping
 requests
 aiohttp
+cloudscraper
+bs4
+
+# Time & utils
 pytz
+
+# Security / Crypto
 pyjwt
 cryptography
+pycryptodome
+
+# Media / Download
 pillow
+m3u8
+yt-dlp
+pytube
+ffmpeg-python
+
+# Web server (if used)
+flask
